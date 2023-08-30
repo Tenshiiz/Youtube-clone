@@ -13,7 +13,7 @@ function Header() {
                     <img src={MenuLogoBranco} className={styles.Logo} />
                 </button>
                 <div className={styles.divLogo}>
-                    <a href="http://localhost:3000" className={styles.linkYoutube}>
+                    <a href="#" className={styles.linkYoutube}>
                         <img src={YoutubeLogo} className={styles.LogoYoutube} />
                         <span className={styles.nameLogo}>YouTube</span>
                         <span>BR</span>
