@@ -1,5 +1,5 @@
 .BarraLateral {
-    width: 14.5%;
+    width: 200px;
     height: 91.5vh;
     position: fixed;
     overflow-y: scroll;
@@ -37,7 +37,7 @@
 .hrOne {
     position: absolute;
     top: 148px;
-    width: 98%;
+    width: 230px;
     margin-left: -25px;
     border: 1px solid rgba(128, 128, 128, 0.445);
 }
@@ -45,7 +45,7 @@
 .hrTwo {
     position: absolute;
     top: 255px;
-    width: 98%;
+    width: 230px;
     margin-left: -25px;
     border: 1px solid rgba(128, 128, 128, 0.445);
 }
@@ -80,8 +80,8 @@ div p {
 
 .hrThree {
     position: absolute;
-    top: 395px;
-    width: 98%;
+    top: 380px;
+    width: 230px;
     margin-left: -25px;
     border: 1px solid rgba(128, 128, 128, 0.445);
 }
@@ -98,16 +98,16 @@ div p {
 
 .hrFour {
     position: absolute;
-    top: 810px;
-    width: 98%;
+    top: 790px;
+    width: 230px;
     margin-left: -25px;
     border: 1px solid rgba(128, 128, 128, 0.445);
 }
 
 .hrFive {
     position: absolute;
-    top: 880px;
-    width: 98%;
+    top: 855px;
+    width: 230px;
     margin-left: -25px;
     border: 1px solid rgba(128, 128, 128, 0.445);
 }
@@ -118,8 +118,8 @@ div p {
 
 .hrSix {
     position: absolute;
-    top: 1055px;
-    width: 98%;
+    top: 1040px;
+    width: 230px;
     margin-left: -25px;
     border: 1px solid rgba(128, 128, 128, 0.445);
 }
@@ -136,7 +136,7 @@ div p {
 .hrSeven {
     position: absolute;
     top: 1230px;
-    width: 98%;
-    margin-left: -25px;
+    width: 230px;
+    left: 0;
     border: 1px solid rgba(128, 128, 128, 0.445);
 }

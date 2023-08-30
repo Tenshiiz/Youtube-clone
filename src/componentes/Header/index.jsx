@@ -23,7 +23,7 @@ function Header() {
             <div className={styles.divSearch}>
                 <Pesquisa />
             </div>
-            <div>
+            <div className={styles.divConfigPerfil}>
                 <button className={styles.buttonConfig}>
                     <img src={Elipse} className={styles.logoConfig} />
                 </button>

@@ -15,7 +15,7 @@
 
 .Profile {
     width: 25px;
-    margin-right: 5px;
+
 }
 
 .Profile + span {
@@ -23,6 +23,5 @@
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 2px;
-    margin-right: 5px;
 
 }

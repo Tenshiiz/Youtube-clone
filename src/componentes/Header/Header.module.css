@@ -1,10 +1,10 @@
 header {
-    padding: 0 20px;
     display: flex;
+    justify-content: space-between;
     height: 50px;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 98vw;
     background: rgba(15,15,15,255);
 }
 
@@ -15,6 +15,7 @@ header div {
 
 .Logo {
     width: 23px;
+    margin-left: 15px;
 }
 
 header button {
@@ -32,10 +33,11 @@ header button:hover {
 
 .divLogo {
     margin-top: 5px;
-    margin-left: 20px;
     display: flex;
     align-items: flex-end;
+    margin-left: 15px;
 }
+
 
 .linkYoutube {
     text-decoration: none;
@@ -71,8 +73,7 @@ header button:hover {
     padding: 0;
     border-radius: 0px;
     margin: 0px;
-    margin-left: 146px;
-    margin-right: -10px;
+
 }
 .buttonConfig:hover {
     background: none;
