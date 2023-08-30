@@ -65,7 +65,7 @@ function App() {
         </div>
         <div className='Videos'>
           <VideoCards
-          link="http://localhost:3000/videos/1"
+          link="videos/1"
           img={ThumbSkank} 
           imgIcon={SkankFoto} 
           titulo="Skank - Ainda Gosto Dela (legendado) | Tom & Summer" 
@@ -73,7 +73,7 @@ function App() {
           Visualizações="2,5 mi de visualizações • há 1 ano" />
 
           <VideoCards 
-          link="http://localhost:3000/videos/2"
+          link="videos/2"
           img={ThumbPrizza} 
           imgIcon={PrizzaFoto} 
           titulo="Pq Japão tem tanto Suic*d*??? sistema de saude e cultura do trabalho" 
@@ -81,7 +81,7 @@ function App() {
           Visualizações="553 mil visualizações • há 2 semanas"/>
 
           <VideoCards
-          link="http://localhost:3000/videos/3" 
+          link="videos/3" 
           img={ThumbOkabe} 
           imgIcon={OkabeFoto}
           titulo="Bad End Friends - Pior Versão | Okabe"
@@ -89,7 +89,7 @@ function App() {
           Visualizações="1,7 mi de visualizações • há 1 mês"/>
 
           <VideoCards
-          link="http://localhost:3000/videos/4"  
+          link="videos/4"  
           img={ThumbSteven} 
           imgIcon={BigBadBearFoto}
           titulo="League of Legends Season 1 Ranked game Jarvan"
@@ -97,7 +97,7 @@ function App() {
           Visualizações="2,6 mi de visualizações • há 12 anos"/>
 
           <VideoCards
-          link="http://localhost:3000/videos/5"  
+          link="videos/5"  
           img={ThumbPrizzaTwo} 
           imgIcon={PrizzaFoto}
           titulo="TOKYO QUER LEVAR TODO MEU DINHEIRO *studio ghibli cafe*"
@@ -105,7 +105,7 @@ function App() {
           Visualizações="116 mil visualizações • há 2 meses"/>
 
           <VideoCards
-          link="http://localhost:3000/videos/6"  
+          link="videos/6"  
           img={ThumbPrizzaThree} 
           imgIcon={PrizzaFoto}
           titulo="Rotina SOZINHA NO JAPÃO; comprei SORRISOS no mc donnalds de tokyo kk"
@@ -113,7 +113,7 @@ function App() {
           Visualizações="445 mil visualizações • há 4 meses"/>
 
           <VideoCards 
-          link="http://localhost:3000/videos/7"  
+          link="videos/7"  
           img={thumbGenshin} 
           imgIcon={GenshinIcon}
           titulo="Teaser da História de Genshin Impact: Iremos Nos Reunir"
