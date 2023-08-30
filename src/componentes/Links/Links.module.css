@@ -1,0 +1,36 @@
+.linksLaterais {
+    border-radius: 10px;
+    text-decoration: none;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 205px;
+    margin-left: -12px;
+    margin-bottom: -19px;
+}
+.linksLaterais:hover {
+    background: rgba(39, 39, 39, 255);
+}
+.linksLateraisTwo {
+    height: 41px;
+    margin-top: 45px;
+    margin-bottom: -44px;
+}
+.IconsText {
+    display: flex;
+    align-items: center;
+    padding: 0px 14px;
+}
+.icons {
+    margin-top: 13px;
+    width: 23px;
+    margin-bottom: 15px;
+}
+.texto {
+    margin-bottom: 5px;
+    margin-left: 25px;
+    color: white;
+    font-size: 14.5px;
+    font-weight: 400;
+}

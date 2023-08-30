@@ -1,0 +1,21 @@
+iframe {
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 730px;
+    height: 411px;
+    margin-bottom: 12px;
+}
+
+.divVideos {
+    padding: 0 78px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.divOne {
+    display: flex;
+}
+.imagem {
+    width: 250px;
+
+}

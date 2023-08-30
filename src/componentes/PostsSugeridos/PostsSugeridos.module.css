@@ -1,0 +1,45 @@
+.thumbSugestão {
+    width: 170px;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 95px;
+}
+
+.VideosSugestão {
+    margin-left: -55px;
+    margin-top: 82px;
+    margin-bottom: -68px;
+}
+.VideosSugestão:nth-of-type(5) {
+    padding-bottom: 20px;
+}
+.descrições {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.VideosSugestão {
+    display: flex;
+
+}
+.visualizações {
+    color: grey;
+    font-size: 13px;
+    margin-left: 8px;
+}
+.titulo {
+    font-size: 15px;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.nomeCanal {
+    color: grey;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.link {
+    text-decoration: none;
+   
+}
