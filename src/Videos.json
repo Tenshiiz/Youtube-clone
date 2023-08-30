@@ -9,7 +9,7 @@
         "likes": "69 mil",
         "thumb": "https://img.youtube.com/vi/gIOulDF9Bjk/maxresdefault.jpg",
         "visualizações": "2,5 mi de • visualizações há 1 ano",
-        "link": "videos/1"
+        "link": "1"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "likes": "42 mil",
         "thumb": "https://img.youtube.com/vi/IJQ3Jl5MMJ8/maxresdefault.jpg",
         "visualizações": "2,5 mi de • visualizações há 1 ano",
-        "link": "videos/2"
+        "link": "2"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "likes": "69 mil",
         "thumb": "https://img.youtube.com/vi/MaTL7n-RJAc/maxresdefault.jpg",
         "visualizações": "2,5 mi de • visualizações há 1 ano",
-        "link": "videos/3"
+        "link": "3"
     },
     {
         "id": 4,
@@ -45,7 +45,7 @@
         "thumb": "https://img.youtube.com/vi/0uskD9fvO78/maxresdefault.jpg",
         "visualizações": "2,6 mi de visualizações • há 12 anos",
         "likes":"43 mil",
-        "link": "videos/4"
+        "link": "4"
     },
     {
         "id": 5,
@@ -57,7 +57,7 @@
         "thumb": "https://img.youtube.com/vi/iyUoHocvJww/sddefault.jpg",
         "visualizações": "2,5 mi de • visualizações há 1 ano",
         "likes": "13 mil",
-        "link": "videos/5"
+        "link": "5"
     },
     {
         "id": 6,
@@ -69,7 +69,7 @@
         "thumb": "https://img.youtube.com/vi/JyEgNrondvA/maxresdefault.jpg",
         "visualizações": "446 mil visualizações • há 1 ano",
         "likes": "33 mil",
-        "link": "videos/6"
+        "link": "6"
     },
     {
         "id": 7,
@@ -81,7 +81,7 @@
         "thumb": "https://img.youtube.com/vi/SO__VQZirJ4/maxresdefault.jpg",
         "visualizações": "32 mi visualizações • há 2 anos",
         "likes": "455 mil",
-        "link": "videos/7"
+        "link": "7"
     }
 
 ]
