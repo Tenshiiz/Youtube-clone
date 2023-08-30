@@ -7,9 +7,9 @@
         "nomeCanal": "Joy",
         "inscritos": "38,8 mil inscritos",
         "likes": "69 mil",
-        "thumb": "http://localhost:3000/static/media/ThumbSkank.314eec22bd3616f1acf0.jpg",
+        "thumb": "https://img.youtube.com/vi/gIOulDF9Bjk/maxresdefault.jpg",
         "visualizações": "2,5 mi de • visualizações há 1 ano",
-        "link": "http://localhost:3000/videos/1"
+        "link": "videos/1"
     },
     {
         "id": 2,
@@ -19,9 +19,9 @@
         "nomeCanal": "Prizza",
         "inscritos": "536 mil inscritos",
         "likes": "42 mil",
-        "thumb": "http://localhost:3000/static/media/ThumbPrizza.bbd2a9a7559abb506e64.jpg",
+        "thumb": "https://img.youtube.com/vi/IJQ3Jl5MMJ8/maxresdefault.jpg",
         "visualizações": "2,5 mi de • visualizações há 1 ano",
-        "link": "http://localhost:3000/videos/2"
+        "link": "videos/2"
     },
     {
         "id": 3,
@@ -31,9 +31,9 @@
         "nomeCanal": "Okabe",
         "inscritos": "38,8 mil inscritos",
         "likes": "69 mil",
-        "thumb": "http://localhost:3000/static/media/ThumbnailOkabe.5701ded86c03d3f62ac3.jpg",
+        "thumb": "https://img.youtube.com/vi/MaTL7n-RJAc/maxresdefault.jpg",
         "visualizações": "2,5 mi de • visualizações há 1 ano",
-        "link": "http://localhost:3000/videos/3"
+        "link": "videos/3"
     },
     {
         "id": 4,
@@ -42,10 +42,10 @@
         "icone": "https://yt3.ggpht.com/_C9KVkbL6mvVS-_CZ9Ind3B1jNLR_iGeGPb81fTqXS0xuQUPUgrEGICykV_HaB07AT4bCRzlFA=s48-c-k-c0x00ffffff-no-rj",
         "nomeCanal": "Steven L",
         "inscritos": "1,43 mil inscritos",
-        "thumb": "http://localhost:3000/static/media/lolRanked.49f5cdcb6b6af51be138.jpg",
+        "thumb": "https://img.youtube.com/vi/0uskD9fvO78/maxresdefault.jpg",
         "visualizações": "2,6 mi de visualizações • há 12 anos",
         "likes":"43 mil",
-        "link": "http://localhost:3000/videos/4"
+        "link": "videos/4"
     },
     {
         "id": 5,
@@ -54,10 +54,10 @@
         "icone": "https://yt3.ggpht.com/e4txpMclBeT2PaIpiDc2xPAxC5-XGTxSimHnP4rW-G6efS38pyz1vfrAjkTWL-AdpPONi3Xhhbo=s48-c-k-c0x00ffffff-no-rj",
         "nomeCanal": "Prizza",
         "inscritos": "38,8 mil inscritos",
-        "thumb": "http://localhost:3000/static/media/ThumbFotoTwo.01b4b1a456cac4c49765.jpg",
+        "thumb": "https://img.youtube.com/vi/iyUoHocvJww/sddefault.jpg",
         "visualizações": "2,5 mi de • visualizações há 1 ano",
         "likes": "13 mil",
-        "link": "http://localhost:3000/videos/5"
+        "link": "videos/5"
     },
     {
         "id": 6,
@@ -66,10 +66,10 @@
         "icone": "https://yt3.ggpht.com/e4txpMclBeT2PaIpiDc2xPAxC5-XGTxSimHnP4rW-G6efS38pyz1vfrAjkTWL-AdpPONi3Xhhbo=s48-c-k-c0x00ffffff-no-rj",
         "nomeCanal": "Prizza",
         "inscritos": "537 mil inscritos",
-        "thumb": "http://localhost:3000/static/media/ThumbFotoThree.10082f2eade45e77c12a.jpg",
+        "thumb": "https://img.youtube.com/vi/JyEgNrondvA/maxresdefault.jpg",
         "visualizações": "446 mil visualizações • há 1 ano",
         "likes": "33 mil",
-        "link": "http://localhost:3000/videos/6"
+        "link": "videos/6"
     },
     {
         "id": 7,
@@ -78,10 +78,10 @@
         "icone": "https://yt3.ggpht.com/UiAwwJ0v-iX3Q4LWn3wfkeITnmjdvEKWyDJW7kIzEdQWdckJCow8MrI-np8EI_9tY0lmk2h-qw=s48-c-k-c0x00ffffff-no-rj",
         "nomeCanal": "Genshin Impact",
         "inscritos": "6,91 mi inscritos",
-        "thumb": "http://localhost:3000/static/media/thumbGenshin.61e25461ed1065cdaf82.jpg",
+        "thumb": "https://img.youtube.com/vi/SO__VQZirJ4/maxresdefault.jpg",
         "visualizações": "32 mi visualizações • há 2 anos",
         "likes": "455 mil",
-        "link": "http://localhost:3000/videos/7"
+        "link": "videos/7"
     }
 
 ]
