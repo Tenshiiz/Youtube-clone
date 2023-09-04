@@ -37,14 +37,14 @@
     },
     {
         "id": 4,
-        "iframe": "https://www.youtube.com/embed/0uskD9fvO78?autoplay=1",
-        "titulo": "League of Legends Season 1 Ranked game Jarvan",
-        "icone": "https://yt3.ggpht.com/_C9KVkbL6mvVS-_CZ9Ind3B1jNLR_iGeGPb81fTqXS0xuQUPUgrEGICykV_HaB07AT4bCRzlFA=s48-c-k-c0x00ffffff-no-rj",
-        "nomeCanal": "Steven L",
-        "inscritos": "1,43 mil inscritos",
-        "thumb": "https://img.youtube.com/vi/0uskD9fvO78/maxresdefault.jpg",
-        "visualizações": "2,6 mi de visualizações • há 12 anos",
-        "likes":"43 mil",
+        "iframe": "https://www.youtube.com/embed/LshTHxy1-4o?autoplay=1",
+        "titulo": "Lord Huron - The Night We Met (legendado/tradução)",
+        "icone": "https://yt3.ggpht.com/ytc/AOPolaRdeEtuDBoadL2ToudJxJjG0fhtaMSf3-R5puP-qw=s48-c-k-c0x00ffffff-no-rj",
+        "nomeCanal": "Lucasz Legendas",
+        "inscritos": "97,3 mil inscritos",
+        "thumb": "https://img.youtube.com/vi/LshTHxy1-4o/maxresdefault.jpg",
+        "visualizações": "8,7 mi de visualizações • há 4 anos",
+        "likes":"231 mil",
         "link": "4"
     },
     {
@@ -82,6 +82,30 @@
         "visualizações": "32 mi visualizações • há 2 anos",
         "likes": "455 mil",
         "link": "7"
+    },
+    {
+        "id": 8,
+        "iframe": "https://www.youtube.com/embed/-Nal2rwPNHM?autoplay=1",
+        "titulo": "Taylor Swift - Cardigan (Tradução)",
+        "icone": "https://yt3.ggpht.com/gdz6fpH2yZvuWLXoceeOjUBTwJI2ZsNL7501oMeeLd1-DJxPZXHKAxc821stMwFHYfHo6ZPS=s48-c-k-c0x00ffffff-no-rj",
+        "nomeCanal": "Traduções Lyrics",
+        "inscritos": "953 inscritos",
+        "thumb": "https://img.youtube.com/vi/-Nal2rwPNHM/sddefault.jpg",
+        "visualizações": "270 mil visualizações • há 3 meses",
+        "likes": "5.2 mil",
+        "link": "8"
+    },
+    {
+        "id": 9,
+        "iframe": "https://www.youtube.com/embed/ICE5dncR7E0?autoplay=1",
+        "titulo": "bruno mars - runaway baby (tradução/legendado)",
+        "icone": "https://yt3.ggpht.com/OlRT_bcwHVnZ5dF0Fq-rTFFQNgOhmBC6E-GEkFHMbwgTvIE0-WNzm1LE9uNWT-rj4z2fff6OGNM=s48-c-k-c0x00ffffff-no-rj",
+        "nomeCanal": "yixingbae シ",
+        "inscritos": "540 inscritos",
+        "thumb": "https://img.youtube.com/vi/ICE5dncR7E0/maxresdefault.jpg",
+        "visualizações": "13 mil visualizações • há 2 anos",
+        "likes": "475",
+        "link": "9"
     }
 
 ]

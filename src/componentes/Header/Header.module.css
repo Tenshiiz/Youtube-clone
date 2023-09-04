@@ -4,8 +4,9 @@ header {
     height: 50px;
     position: fixed;
     top: 0;
-    width: 98vw;
+    width: 97vw;
     background: rgba(15,15,15,255);
+    padding: 0px 10px;
 }
 
 header div {
@@ -15,7 +16,6 @@ header div {
 
 .Logo {
     width: 23px;
-    margin-left: 15px;
 }
 
 header button {
@@ -73,10 +73,12 @@ header button:hover {
     padding: 0;
     border-radius: 0px;
     margin: 0px;
-
-}
-.buttonConfig:hover {
-    background: none;
+    width: 0px;
+    padding: 3px 15px;
+    padding-right: 19px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    margin-right: 5px;
 }
 
 

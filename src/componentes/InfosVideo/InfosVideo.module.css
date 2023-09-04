@@ -29,7 +29,7 @@
     margin-top: 8px;
 }
 .nomeInscritos > span {
-    width: 115px;
+    width: 120px;
 }
 .inscritos {
     font-size: 13px;
@@ -59,7 +59,9 @@
     background: white;
     color: rgba(38,38,38,255);
     font-weight:600;
+    margin-right: 55px;
 }
+
 .likeDeslike {
     margin-left: 100px;
 }

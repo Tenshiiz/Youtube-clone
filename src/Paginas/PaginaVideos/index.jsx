@@ -21,6 +21,7 @@ function PaginaVideos() {
         ArrayVideos.push(result);
     }
     console.log(ArrayVideos);
+    
     const videosSugeridos = [];
 
     for (var u = 0; u < ArrayVideos.length; u++) {
