@@ -24,11 +24,11 @@ function App() {
           </Botão>
 
           <Botão>
-            League of Legends
+            Lofi
           </Botão>
 
           <Botão>
-            Genshin Impact
+            HipHop
           </Botão>
 
           <Botão>
@@ -48,19 +48,27 @@ function App() {
           </Botão>
 
           <Botão>
-            World of Warcraft
+            Mangá
+          </Botão>
+
+          <Botão>
+            React
+          </Botão>
+
+          <Botão>
+            Cómedia
           </Botão>
         </div>
         <div className='Videos'>
           {
             videos.map((value) => {
               return <VideoCards
-              link={`videos/${value.link}`}
-              img={value.thumb} 
-              imgIcon={value.icone} 
-              titulo={value.titulo}
-              nomeCanal={value.nomeCanal} 
-              Visualizações={value.visualizações} />
+                link={`videos/${value.link}`}
+                img={value.thumb}
+                imgIcon={value.icone}
+                titulo={value.titulo}
+                nomeCanal={value.nomeCanal}
+                Visualizações={value.visualizações} />
             })
           }
         </div>

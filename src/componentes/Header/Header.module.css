@@ -103,7 +103,7 @@ header button:hover {
         width: 40px;
     }
     .divSearch {
-        margin-right: 15px;
+        margin-right: -150px;
     }
 }
 @media (min-width: 481px) and (max-width:768px) {}
