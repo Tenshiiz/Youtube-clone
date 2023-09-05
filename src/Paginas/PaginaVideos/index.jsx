@@ -36,7 +36,7 @@ function PaginaVideos() {
             <Header />
             <div className={styles.divOne}>
                 <div className={styles.divVideos}>
-                    <iframe src={post.iframe} title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>
+                    <iframe src={post.iframe} title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share allowfullscreen'></iframe>
                     <InfosVideo
                         titulo={post.titulo}
                         icone={post.icone}
