@@ -43,18 +43,22 @@
     font-size: 15px;
 }
 
-.nomeCanal, .Visualizações {
+.nomeCanal, .Visualizações, .nomeCanalMobile, .VisualizaçõesMobile {
     margin-top: 2px;
     color: #9b9b9b;
     font-size: 14.5px;
     font-weight: 500;
 }
 
-.Visualizações {
+.Visualizações, .VisualizaçõesMobile {
     font-weight: 400;
     font-size: 15px;
     color: #9b9b9b;
 }
+.nomeCanalMobile, .VisualizaçõesMobile {
+    display: none;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     .cards {
         margin-right: 0px;
@@ -65,5 +69,24 @@
         width: 100vw;
         height: 230px;
     }
-
+    .descrição {
+        margin-left: 15px;
+    }
+    .nomeCanal, .Visualizações {
+        display: none;
+    }
+    .nomeCanalMobile {
+        margin-right: 10px;
+    }
+    .nomeCanalMobile, .VisualizaçõesMobile {
+        display: inline-block;
+    }
+    .divdescMobile {
+        width: 350px;
+    }
+    .logoConfigTwo {
+        width: 4.5px;
+        margin-left: 50px;
+        margin-bottom: 15px;
+    }
 }

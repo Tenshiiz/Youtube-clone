@@ -1,4 +1,5 @@
 import "./VideoCards.css"
+import Elipse from "../../assets/SvgIcons/ellipsis-vertical-white.svg"
 
 function VideoCards({ img, imgIcon, titulo, nomeCanal, Visualizações, link }) {
     return (
@@ -17,8 +18,14 @@ function VideoCards({ img, imgIcon, titulo, nomeCanal, Visualizações, link }) 
                     </a>
                     <span className="nomeCanal">{nomeCanal}</span>
                     <span className="Visualizações">{Visualizações}</span>
+                    <div className="divdescMobile">
+                    <span className="nomeCanalMobile">{nomeCanal}</span>
+                    <span className="VisualizaçõesMobile">{Visualizações}</span>
+                    </div>
                 </div>
+                <img src={Elipse} className="logoConfigTwo"/>
             </div>
+            
         </div>
     )
 }
