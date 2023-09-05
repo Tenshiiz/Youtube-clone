@@ -116,7 +116,7 @@ margin-right: 7px;
 
     }
     .botaoinscrever {
-        padding:   10px 15px;
+        padding:   5px 15px;
 
     }
     .DivBotoesMobile {
@@ -132,6 +132,9 @@ margin-right: 7px;
     }
     .infoVideo {
         padding: 0px 10px;
+    }
+    .titulo {
+        margin-bottom: 10px;
     }
 
 
