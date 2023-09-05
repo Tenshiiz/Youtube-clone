@@ -36,5 +36,8 @@ iframe {
         align-items: center;
         margin-top: -50px;
     }
+    .divOne, .divTwo {
+        width: 99.5vw;
+    }
 
 }
