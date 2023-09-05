@@ -26,3 +26,29 @@
     margin-bottom: 2px;
 
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .divLogin {
+        border: none;
+        padding: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        margin-right: 10px;
+    }
+    .divLogin:hover {
+        cursor: none;
+        background: none;
+    }
+    .divLogin:active {
+        background: #263850;
+        padding: 6px 4px;
+
+    }
+    .Profile {
+        margin: 0;
+    }
+ .Profile + span {
+    display: none;
+ }   
+}

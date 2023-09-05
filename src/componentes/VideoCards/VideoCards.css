@@ -55,3 +55,15 @@
     font-size: 15px;
     color: #9b9b9b;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .cards {
+        margin-right: 0px;
+        width: 100vw;
+    }
+    .thumbnail {
+        border-radius: 0px;
+        width: 100vw;
+        height: 250px;
+    }
+
+}

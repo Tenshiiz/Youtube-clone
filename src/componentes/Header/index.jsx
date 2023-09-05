@@ -9,7 +9,7 @@ function Header() {
     return (
         <header>
             <div>
-                <button>
+                <button className={styles.botaoElipse}>
                     <img src={MenuLogoBranco} className={styles.Logo} />
                 </button>
                 <div className={styles.divLogo}>
@@ -20,15 +20,16 @@ function Header() {
                     </a>
                 </div>
             </div>
-            <div className={styles.divSearch}>
-                <Pesquisa />
-            </div>
-            <div className={styles.divConfigPerfil}>
-                <button className={styles.buttonConfig}>
-                    <img src={Elipse} className={styles.logoConfig} />
-                </button>
-                <FazerLogin />
-            </div>
+
+                <div className={styles.divSearch}>
+                    <Pesquisa />
+                </div>
+                <div className={styles.divConfigPerfil}>
+                    <button className={styles.buttonConfig}>
+                        <img src={Elipse} className={styles.logoConfig} />
+                    </button>
+                    <FazerLogin />
+                </div>
         </header>
     )
 }

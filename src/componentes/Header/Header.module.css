@@ -5,7 +5,7 @@ header {
     position: fixed;
     top: 0;
     width: 97vw;
-    background: rgba(15,15,15,255);
+    background: rgba(15, 15, 15, 255);
     padding: 0px 10px;
 }
 
@@ -81,9 +81,30 @@ header button:hover {
     margin-right: 5px;
 }
 
-
-
 @font-face {
     font-family: YoutubeSansFont;
     src: url("../../assets/fonts/gnuolane-2.ttf")
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .Logo {
+        display: none;
+    }
+    .botaoElipse{
+        display: none;
+    }
+    .divLogo {
+        margin-left: 5px;
+    }
+    .buttonConfig {
+        display: none;
+    }
+    .divConfigPerfil {
+        width: 40px;
+    }
+    .divSearch {
+        margin-right: 15px;
+    }
+}
+@media (min-width: 481px) and (max-width:768px) {}
+@media (min-width: 769px) and (max-width:1024px) {}

@@ -5,7 +5,7 @@ function Pesquisa() {
     return (
         <>
             <input type="search" placeholder="Pesquisar" className={styles.search}></input>
-            <button>
+            <button className={styles.buttonLupa}>
                 <img src={Lupa} className={styles.Lupa} />
             </button>
             <button className={styles.buttonMicrophone}>

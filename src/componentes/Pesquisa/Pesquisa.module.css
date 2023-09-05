@@ -40,3 +40,20 @@
     font-size: 16px;
     font-weight: 400;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .search {
+        display: none;
+    }
+    .search + button {
+        padding: 0px;
+        background: none;
+        border:none;
+    }
+    .buttonMicrophone {
+        display: none;
+    }
+    .buttonLupa:hover {
+        background: none;
+    }
+}
+
