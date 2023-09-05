@@ -85,7 +85,7 @@
         display: inline-block;
     }
     .divdescMobile {
-        width: 84.5vw;
+        width: 100%;
     }
     .logoConfigTwo {
         display: inline-block;
@@ -93,4 +93,7 @@
         margin-left: 50px;
         margin-bottom: 15px;
     }
+.nomeCanalMobile, .VisualizaçõesMobile {
+    font-size: 13px;
+}
 }
