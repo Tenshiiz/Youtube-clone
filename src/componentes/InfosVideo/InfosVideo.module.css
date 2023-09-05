@@ -110,15 +110,19 @@ margin-right: 7px;
     }
     .InscreverMobile {
         display: inline-block;
-        margin-left: 70px;
+
+        width: 105px;
+        margin-left: 50px;
+
     }
     .botaoinscrever {
-        padding: 5px 15px;
+        padding:   10px 15px;
 
     }
     .DivBotoesMobile {
         display: flex;
         justify-content: center;
+        
     }
 /* parte do codigo muito estranha para se mexer */
     .likesDeslikeMobile {
@@ -127,7 +131,7 @@ margin-right: 7px;
         margin-right: 0!important;
     }
     .infoVideo {
-        margin-left: 15px;
+        padding: 0px 10px;
     }
 
 
