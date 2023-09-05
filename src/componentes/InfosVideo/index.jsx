@@ -18,16 +18,30 @@ function InfosVideo({ titulo, icone, nomeCanal, inscritos, likes }) {
                             Inscrever-se
                         </button>
                         <button className={`${styles.botoes} ${styles.likeDeslike}`}>
-                            <img src={Like} className={styles.like}/>
+                            <img src={Like} className={styles.like} />
                             <span>{likes}</span>
-                            <img src={Unlike} className={styles.unlike}/>
+                            <img src={Unlike} className={styles.unlike} />
                         </button>
                         <button className={`${styles.botoes} ${styles.compartilhar}`}>compartilhar</button>
-                        <button className={`${styles.botoes} ${styles.botaomais}`}><img src={mais} className={styles.mais}/></button>
+                        <button className={`${styles.botoes} ${styles.botaomais}`}><img src={mais} className={styles.mais} /></button>
+                    </div>
+                    <div className={styles.InscreverMobile}>
+                        <button className={`${styles.botoes} ${styles.botaoinscrever}`}>
+                            Inscrever-se
+                        </button>
                     </div>
                 </div>
+                <div className={styles.DivBotoesMobile}>
+                    <button className={`${styles.botoes} ${styles.likesDeslikeMobile}`}>
+                        <img src={Like} className={styles.like} />
+                        <span>{likes}</span>
+                        <img src={Unlike} className={styles.unlike} />
+                    </button>
+                    <button className={`${styles.botoes} ${styles.compartilhar}`}>compartilhar</button>
+                    <button className={`${styles.botoes} ${styles.botaomais}`}><img src={mais} className={styles.mais} /></button>
+                </div>
             </div>
-            
+
         </>
     )
 }

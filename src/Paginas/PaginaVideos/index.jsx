@@ -47,7 +47,7 @@ function PaginaVideos() {
                 <div className={styles.divTwo}>
                     {
                        videosSugeridos.map((value) => {
-                        return <PostsSugeridos key={value.id} thumb={value.thumb} titulo={value.titulo} nomeCanal={value.nomeCanal} Visualizações={value.visualizações} link={value.link}/>
+                        return <PostsSugeridos key={value.id} thumb={value.thumb} titulo={value.titulo} nomeCanal={value.nomeCanal} Visualizações={value.visualizações} link={value.link} Icon={value.icone}/>
                         
                        })
                        

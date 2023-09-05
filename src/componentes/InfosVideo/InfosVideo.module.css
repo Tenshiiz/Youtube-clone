@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
 }
-.DivBotoes {
+.DivBotoes, .DivBotoesMobile {
     width: 76.5%;
     display: flex;
     margin-top: 8px;
@@ -93,4 +93,43 @@ margin-right: 7px;
 }
 .botoes:hover {
     background: rgba(63,63,63,255);
+}
+.DivBotoesMobile {
+    display: none;
+}
+.InscreverMobile {
+    display: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .DivBotoes {
+        display: none;
+    }
+    .DivBotoesMobile {
+        margin-left: 0;
+        width: 100%;
+    }
+    .InscreverMobile {
+        display: inline-block;
+        margin-left: 70px;
+    }
+    .botaoinscrever {
+        padding: 5px 15px;
+
+    }
+    .DivBotoesMobile {
+        display: flex;
+        justify-content: center;
+    }
+/* parte do codigo muito estranha para se mexer */
+    .likesDeslikeMobile {
+        background: rgba(39, 39, 39, 255)!important;
+        color: white!important;
+        margin-right: 0!important;
+    }
+    .infoVideo {
+        margin-left: 15px;
+    }
+
+
+    
 }
