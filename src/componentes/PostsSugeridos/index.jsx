@@ -21,17 +21,17 @@ function PostsSugeridos({ thumb, titulo, nomeCanal, Visualizações, link, Icon 
             <div className={styles.descriçãoMobile}>
                 <img src={Icon} className={styles.Icone} />
                 <div>
-                <a href={link} className={styles.link}>
-                    <h2 className={styles.titulo}>
-                        {titulo}
-                    </h2>
+                    <a href={link} className={styles.link}>
+                        <h2 className={styles.titulo}>
+                            {titulo}
+                        </h2>
                     </a>
-                        <span className={styles.nomeCanalMobile}>
-                            {nomeCanal}
-                        </span>
-                        <span className={styles.visualizaçõesMobile}>
-                            {Visualizações}
-                        </span>
+                    <span className={styles.nomeCanalMobile}>
+                        {nomeCanal}
+                    </span>
+                    <span className={styles.visualizaçõesMobile}>
+                        {Visualizações}
+                    </span>
                 </div>
             </div>
         </div>
