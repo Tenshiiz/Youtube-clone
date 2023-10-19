@@ -11,53 +11,7 @@ function App() {
       <BarraLateral />
       <main>
         <div className="divCategoria">
-          <Botão>
-            Tudo
-          </Botão>
-
-          <Botão>
-            Música
-          </Botão>
-
-          <Botão>
-            Jogos
-          </Botão>
-
-          <Botão>
-            Lofi
-          </Botão>
-
-          <Botão>
-            HipHop
-          </Botão>
-
-          <Botão>
-            Valorant
-          </Botão>
-
-          <Botão>
-            Minecraft
-          </Botão>
-
-          <Botão>
-            M4rkim
-          </Botão>
-
-          <Botão>
-            Tomates
-          </Botão>
-
-          <Botão>
-            Mangá
-          </Botão>
-
-          <Botão>
-            React
-          </Botão>
-
-          <Botão>
-            Cómedia
-          </Botão>
+          <Botão />
         </div>
         <div className='Videos'>
           {
