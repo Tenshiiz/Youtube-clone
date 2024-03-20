@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Projeto Youtube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://youtube-clone-tenshi.vercel.app
 
 ## Available Scripts
 
