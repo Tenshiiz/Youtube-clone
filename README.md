@@ -1,5 +1,5 @@
 # Youtube Clone
 
-https://imgur.com/a/IalDyZN
+(https://imgur.com/a/IalDyZN)
 
 
