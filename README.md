@@ -1,6 +1,6 @@
 # Projeto Youtube Clone
 
-https://youtube-clone-tenshi.vercel.app
+Link para o projeto em vercel https://youtube-clone-tenshi.vercel.app
 
 ## Available Scripts
 
