@@ -1,0 +1,86 @@
+.thumbSugestão {
+    width: 13vw;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 16vh;
+}
+
+.VideosSugestão {
+    margin-left: -55px;
+    margin-top: 82px;
+    margin-bottom: -68px;
+}
+.VideosSugestão:nth-of-type(5) {
+    padding-bottom: 20px;
+}
+.descrições {
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.VideosSugestão {
+    display: flex;
+
+}
+.visualizações, .visualizaçõesMobile {
+    color: grey;
+    font-size: 13px;
+    margin-left: 8px;
+}
+.titulo {
+    font-size: 15px;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.nomeCanal, .nomeCanalMobile {
+    color: grey;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.link {
+    text-decoration: none;
+}
+.nomeCanalMobile, .visualizaçõesMobile {
+    display: none;
+}
+.descriçãoMobile {
+    display: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .thumbSugestão {
+        width: 100vw;
+        height: 230px;
+        border-radius: 0;
+    }
+    .VideosSugestão {
+        margin-left: 0px;
+    }
+    .VideosSugestão {
+        flex-direction: column;
+    }
+    .descrições {
+        display: none;
+    }
+    .nomeCanal {
+        display: none;
+    }
+    .visualizações {
+        display: none;
+    }
+    .nomeCanalMobile, .visualizaçõesMobile {
+        display: inline-block;
+    }
+    .Icone {
+        object-fit: cover;
+        width: 37px;
+        height: 37px;
+        border-radius: 100px;
+        margin-top: 7px;
+        margin-right: 10px;
+    }
+    .descriçãoMobile {
+        display: flex;
+    }
+}

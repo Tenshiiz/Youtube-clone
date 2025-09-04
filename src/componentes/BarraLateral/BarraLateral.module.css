@@ -1,0 +1,147 @@
+.BarraLateral {
+    width: 200px;
+    height: 91.5vh;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0px 23px;
+    margin-top: 25px;
+}
+
+.BarraLateral::-webkit-scrollbar {
+    width: 8px;
+}
+
+.BarraLateral:hover::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: rgba(113, 113, 113, 255);
+}
+
+.BarraLateral a:nth-of-type(1) {
+    background: rgba(39, 39, 39, 255);
+}
+
+
+
+.bordaDois {
+    border: 1px solid white;
+    height: 120px;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.hrOne {
+    position: absolute;
+    top: 148px;
+    width: 230px;
+    margin-left: -25px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+
+.hrTwo {
+    position: absolute;
+    top: 255px;
+    width: 230px;
+    margin-left: -25px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+
+
+.linkAtivo {
+    background: red;
+}
+
+
+
+
+div p {
+    margin-left: 10px;
+    margin-top: 68px;
+    font-size: 14.4px;
+}
+
+.textos {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.textos p {
+    margin: 0;
+}
+
+.LoginLateral {
+    margin-top: 12px;
+
+}
+
+.hrThree {
+    position: absolute;
+    top: 380px;
+    width: 230px;
+    margin-left: -25px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+
+.explorar {
+    margin-top: 32px;
+    font-size: 16.5px;
+    font-weight: 400;
+}
+
+.explorar+a {
+    margin-top: 10px;
+}
+
+.hrFour {
+    position: absolute;
+    top: 790px;
+    width: 230px;
+    margin-left: -25px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+
+.hrFive {
+    position: absolute;
+    top: 855px;
+    width: 230px;
+    margin-left: -25px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+
+.hrFour + a {
+    margin-top: 50px;
+}
+
+.hrSix {
+    position: absolute;
+    top: 1040px;
+    width: 230px;
+    margin-left: -25px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+.hrSix + a {
+    margin-top: 47px;
+}
+.hrFive+h2 {
+    left: 0;
+    margin-top: 50px;
+    font-size: 16.5px;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+.hrSeven {
+    position: absolute;
+    top: 1230px;
+    width: 230px;
+    left: 0;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .BarraLateral {
+        display: none;
+    }
+}

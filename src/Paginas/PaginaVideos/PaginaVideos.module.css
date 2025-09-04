@@ -1,0 +1,43 @@
+iframe {
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 60vw;
+    height: 70vh;
+    margin-bottom: 12px;
+
+}
+
+.divVideos {
+    padding: 0 78px;
+    display: flex;
+    flex-direction: column;
+}
+.divOne {
+    display: flex;
+}
+.imagem {
+    width: 250px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    iframe {
+        width: 100vw;
+        height: 45vh;
+    }
+    .divVideos {
+    padding: 0px;
+    }
+    .divOne {
+        flex-direction: column;
+    }
+    .divTwo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+    }
+    .divOne, .divTwo {
+        width: 99.5vw;
+    }
+
+}

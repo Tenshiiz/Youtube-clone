@@ -1,0 +1,142 @@
+.titulo {
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 0px;
+}
+
+.avatar {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.infoVideo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.infosCanal {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.nomeInscritos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+.nomeInscritos > span {
+    width: 125px;
+}
+.inscritos {
+    font-size: 13px;
+    color: grey;
+    font-weight: 400;
+}
+.botoes {
+    background: rgba(39, 39, 39, 255);
+    border: none;
+    color: white;
+    padding: 4.5px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.DivBotoes, .DivBotoesMobile {
+    width: 76.5%;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+.botoes:nth-of-type(1) {
+    background: white;
+    color: rgba(38,38,38,255);
+    font-weight:600;
+    margin-right: 55px;
+}
+
+.likeDeslike {
+    margin-left: 100px;
+}
+.like {
+    width: 20px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+.like + span {
+    font-weight: 700;
+    margin-right: 15px;
+}
+.mais {
+    width: 20px;
+}
+.botaomais {
+    padding: 8px 8px;
+
+}
+.unlike {
+    padding-left: 10px;
+    width: 27px;
+    border-left: 1px solid grey;
+}
+.compartilhar {
+font-size: 15px;
+font-weight: 600;
+margin-right: 7px;
+}
+.botoes:hover {
+    background: rgba(63,63,63,255);
+}
+.DivBotoesMobile {
+    display: none;
+}
+.InscreverMobile {
+    display: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .DivBotoes {
+        display: none;
+    }
+    .DivBotoesMobile {
+        margin-left: 0;
+        width: 100%;
+    }
+    .InscreverMobile {
+        display: inline-block;
+
+        width: 105px;
+        margin-left: 50px;
+
+    }
+    .botaoinscrever {
+        padding:   5px 15px;
+
+    }
+    .DivBotoesMobile {
+        display: flex;
+        justify-content: center;
+        
+    }
+/* parte do codigo muito estranha para se mexer */
+    .likesDeslikeMobile {
+        background: rgba(39, 39, 39, 255)!important;
+        color: white!important;
+        margin-right: 0!important;
+    }
+    .infoVideo {
+        padding: 0px 10px;
+    }
+    .titulo {
+        margin-bottom: 10px;
+    }
+
+
+    
+}

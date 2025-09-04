@@ -1,0 +1,104 @@
+.cards {
+    width: 330px;
+    margin-right: 15px;
+    margin-top: 110px;
+    margin-bottom: -30px;
+
+}
+.cards:last-child {
+    padding-bottom: 100px;
+}
+.linktitulo {
+    background: none!important;
+    text-decoration: none;
+
+}
+.thumbnail {
+    width: 330px;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 190px;
+}
+.descrição {
+    display: flex;
+    height: 50px;
+}
+.Avatar {
+    object-fit: cover;
+    width: 37px;
+    height: 37px;
+    border-radius: 100px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.descriçãoTwo {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 50px;
+    margin-top: 5px;
+}
+.titulo {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nomeCanal, .Visualizações, .nomeCanalMobile, .VisualizaçõesMobile {
+    margin-top: 2px;
+    color: #9b9b9b;
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
+.Visualizações, .VisualizaçõesMobile {
+    font-weight: 400;
+    font-size: 15px;
+    color: #9b9b9b;
+}
+.nomeCanalMobile, .VisualizaçõesMobile {
+    display: none;
+}
+.logoConfigTwo {
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .cards {
+        margin-right: 0px;
+        width: 100vw;
+    }
+    .thumbnail {
+        border-radius: 0px;
+        width: 100vw;
+        height: 230px;
+    }
+    .descrição {
+        justify-content: space-evenly;
+    }
+    .nomeCanal, .Visualizações {
+        display: none;
+    }
+    .nomeCanalMobile {
+        margin-right: 10px;
+    }
+    .nomeCanalMobile, .VisualizaçõesMobile {
+        display: inline-block;
+    }
+    .divdescMobile {
+        width: 110%;
+    }
+    .descriçãoTwo {
+        margin-left: -15px;
+    }
+    .logoConfigTwo {
+        display: inline-block;
+        width: 4.5px;
+        margin-bottom: 15px;
+    }
+.nomeCanalMobile, .VisualizaçõesMobile {
+    font-size: 13px;
+}
+}

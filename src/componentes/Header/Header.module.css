@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 97vw;
+    background: rgba(15, 15, 15, 255);
+    padding: 0px 10px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    width: 23px;
+}
+
+header button {
+    background: none;
+    border: none;
+    padding: 8px;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background: rgba(211, 211, 211, 0.13);
+}
+
+.divLogo {
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15px;
+}
+
+
+.linkYoutube {
+    text-decoration: none;
+    display: flex;
+}
+
+.LogoYoutube {
+    width: 28px;
+
+}
+
+.nameLogo {
+    color: white;
+    margin-left: 2px;
+    font-size: 23px;
+    font-family: YoutubeSansFont;
+}
+
+.nameLogo+span {
+    margin-left: 3px;
+    color: lightgrey;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.logoConfig {
+    margin-top: 8px;
+    width: 4.5px;
+    margin-right: 35px;
+}
+
+.buttonConfig {
+    padding: 0;
+    border-radius: 0px;
+    margin: 0px;
+    width: 0px;
+    padding: 3px 15px;
+    padding-right: 19px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+@font-face {
+    font-family: YoutubeSansFont;
+    src: url("../../assets/fonts/gnuolane-2.ttf")
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .Logo {
+        display: none;
+    }
+    .botaoElipse{
+        display: none;
+    }
+    .divLogo {
+        margin-left: 5px;
+    }
+    .buttonConfig {
+        display: none;
+    }
+    .divConfigPerfil {
+        width: 40px;
+    }
+    .divSearch {
+        margin-right: -150px;
+    }
+}
+@media (min-width: 481px) and (max-width:768px) {}
+@media (min-width: 769px) and (max-width:1024px) {}
