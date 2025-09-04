@@ -15,7 +15,7 @@ O **YouTube Clone** é uma aplicação front-end que recria a experiência de na
 <p align="center">
   <img src="Imagens/tela.png" alt="Visão da página de vídeo no desktop" width="49%">
   &nbsp;
-  <img src="Imagens/telavideos-mobile.png" alt="Visão da página de vídeo no mobile" width="40%">
+  <img src="Imagens/telaMobile.png" alt="Visão da página de vídeo no mobile" width="40%">
 </p>
 
 ## 🚀 Tecnologias Utilizadas
